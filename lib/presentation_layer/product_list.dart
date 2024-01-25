@@ -52,6 +52,7 @@ class _ProductListState extends State<ProductList> {
                         productX: widget.products[index],
                         products: widget.products,
                         onUpdate: () {
+                          widget.onReload();
                           Navigator.of(context).pop();                                },
                       ));
                     }

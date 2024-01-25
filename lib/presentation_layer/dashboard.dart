@@ -158,7 +158,7 @@ class _DashBoardViewState extends State<DashBoardView> {
         ),
         bottomNavigationBar: Padding(
           padding: EdgeInsets.symmetric(
-            vertical: 30,
+            vertical: 20,
             horizontal: (constraints.maxWidth - 280)/2
           ),
           child: Container(
